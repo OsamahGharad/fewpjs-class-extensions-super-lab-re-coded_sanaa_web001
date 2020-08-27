@@ -12,7 +12,7 @@ class Tree {
 
 class Deciduous extends Tree{
   constructor(species,name) {
-    super(name);
+    super(species);
     this.name=name
   }
   static definition(){
@@ -24,7 +24,7 @@ class Deciduous extends Tree{
 
 class Evergreen extends Tree{
   constructor(species,name) {
-    super(name);
+    super(species);
     this.name=name
   }
   static definition(){
